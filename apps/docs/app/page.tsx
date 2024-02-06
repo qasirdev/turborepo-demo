@@ -78,10 +78,14 @@ export default function Page(): JSX.Element {
         </div>
       </div>
 
+      {/* <Button appName="docs" className={styles.button}> */}
       <Button appName="docs" className={styles.button}>
-        Click me!
+        Click me now!
       </Button>
 
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
       <div className={styles.hero}>
         <div className={styles.heroContent}>
           <div className={styles.logos}>

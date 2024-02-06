@@ -1,5 +1,5 @@
 {
-  "name": "monorepo-test",
+  "name": "turborepo-demo",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -10,6 +10,7 @@
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "@repo/tailwind-config": "workspace:*",
     "prettier": "^3.1.1",
     "turbo": "latest"
   },
